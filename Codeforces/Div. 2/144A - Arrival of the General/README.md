@@ -8,7 +8,7 @@
 | **Tags** | implementation |
 | **Verdict** | ✅ Accepted |
 | **Language** | C++17 (GCC 7-32) |
-| **Runtime** | 124 ms |
+| **Runtime** | 92 ms |
 | **Memory** | 0 KB |
 
 ---
@@ -29,7 +29,7 @@ Within one second the colonel can swap any two neighboring soldiers. Help him co
 
 ## Input
 
-The first input line contains the only integer *n* (2 ≤ *n* ≤ 100) which represents the number of soldiers in the line. The second line contains integers *a*_(1), *a*_(2), ..., *a*_(*n*) (1 ≤ *a*_(*i*) ≤ 100) the values of the soldiers' heights in the order of soldiers' heights' increasing in the order from the beginning of the line to its end. The numbers are space-separated. Numbers *a*_(1), *a*_(2), ..., *a*_(*n*) are not necessarily different.
+The first input line contains the only integer *n* (2 ≤ *n* ≤ 100) which represents the number of soldiers in the line. The second line contains integers *a*_1, *a*_2, ..., *a*_*n* (1 ≤ *a*_*i* ≤ 100) the values of the soldiers' heights in the order of soldiers' heights' increasing in the order from the beginning of the line to its end. The numbers are space-separated. Numbers *a*_1, *a*_2, ..., *a*_*n* are not necessarily different.
 
 ## Output
 
@@ -40,25 +40,31 @@ Print the only integer — the minimum number of seconds the colonel will need t
 **Example 1:**
 
 ```
-433 44 11 22
+4
+33 44 11 22
+
 ```
 
 **Output 1:**
 
 ```
 2
+
 ```
 
 **Example 2:**
 
 ```
-710 10 58 31 63 40 76
+7
+10 10 58 31 63 40 76
+
 ```
 
 **Output 2:**
 
 ```
 10
+
 ```
 
 ## Note
@@ -81,7 +87,7 @@ In the second sample the colonel may swap the soldiers in the following sequence
 
 ---
 
-> 🔗 [View on Codeforces](https://codeforces.com/contest/144/problem/A)
+> 🔗 [View on Codeforces](https://codeforces.com/problemset/problem/144/A)
 
 ---
 *Synced by [CodeSync Pro](https://github.com/parthopaul69/CodeSync-Pro-Extension)*
