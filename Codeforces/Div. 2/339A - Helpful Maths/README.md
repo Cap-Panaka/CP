@@ -8,7 +8,7 @@
 | **Tags** | greedy, implementation, sortings, strings |
 | **Verdict** | ✅ Accepted |
 | **Language** | C++17 (GCC 7-32) |
-| **Runtime** | 154 ms |
+| **Runtime** | 92 ms |
 | **Memory** | 0 KB |
 
 ---
@@ -39,41 +39,47 @@ Print the new sum that Xenia can count.
 
 ```
 3+2+1
+
 ```
 
 **Output 1:**
 
 ```
 1+2+3
+
 ```
 
 **Example 2:**
 
 ```
 1+1+3+1+3
+
 ```
 
 **Output 2:**
 
 ```
 1+1+1+3+3
+
 ```
 
 **Example 3:**
 
 ```
 2
+
 ```
 
 **Output 3:**
 
 ```
 2
+
 ```
 
 ---
 
-> 🔗 [View on Codeforces](https://codeforces.com/contest/339/problem/A)
+> 🔗 [View on Codeforces](https://codeforces.com/problemset/problem/339/A)
 
 ---
 *Synced by [CodeSync Pro](https://github.com/parthopaul69/CodeSync-Pro-Extension)*
