@@ -1,22 +1,52 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-	char s[1001];
-	scanf("%s",s);
-	int n=strlen(s);
-	int i,j;
-	char temp[1001];
-	for(i=0,j=0;i<n;i+=2,j++)
-	{
-	    temp[j]=s[i];
-	}
-	n=j;
-	sort(temp,temp+n);
-	printf("%c",temp[0]);
-	for(i=1;i<n;i++)
-	{
-	    printf("+%c",temp[i]);
-	}
+#define ll long long
+#define endl '\n'
 
+void solve()
+{ 
+    string s;
+    cin>>s;
+    vector<int>a;
+
+    for(int i=0;i<s.size();i++)
+    {
+        if(s[i]!='+')
+        {
+            a.push_back(s[i]-'0');
+        }
+    }
+
+    sort(a.begin(),a.end());
+
+    for(int i=0;i<a.size();i++)
+    {
+        cout<<a[i];
+        if(i!=a.size()-1)
+        {
+        cout<<"+";
+        }
+    }
+
+
+
+}
+
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+
+   // int t = 1;
+    //cin >> t;
+
+    //while(t--)
+    //{
+        solve();
+    //}
+
+    return 0;
 }
